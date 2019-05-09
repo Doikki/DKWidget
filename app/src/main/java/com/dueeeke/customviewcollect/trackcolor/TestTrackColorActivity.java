@@ -81,15 +81,16 @@ public class TestTrackColorActivity extends AppCompatActivity {
             @Override
             public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
                 if (positionOffset == 0) return;
-                ColorTrackTextView current = (ColorTrackTextView) mContainer.getChildAt(position);
-                ColorTrackTextView last = (ColorTrackTextView) mContainer.getChildAt(position + 1);
-                current.startTrack(positionOffset, false);
-                last.startTrack(positionOffset, true);
+                ColorTrackTextView selected = (ColorTrackTextView) mContainer.getChildAt(position);
+                ColorTrackTextView next = (ColorTrackTextView) mContainer.getChildAt(position + 1);
+                selected.startTrack(positionOffset, false);
+                next.startTrack(positionOffset, true);
 
-
-                if (position < 2) return;
-                int width = current.getWidth();
-                mScroll.scrollTo((int) (width * positionOffset)  + current.getLeft() - mContainer.getChildAt(2).getLeft(), 0);
+                int selectedWidth = selected.getWidth();
+                int nextWidth = next.getWidth();
+                int scrollBase = selected.getLeft() + (selectedWidth / 2) - (mScroll.getWidth() / 2);
+                int scrollOffset = (int) ((selectedWidth + nextWidth) * 0.5f * positionOffset);
+                mScroll.scrollTo(scrollOffset  + scrollBase, 0);
             }
 
             @Override
