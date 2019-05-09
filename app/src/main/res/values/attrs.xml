@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="StepView">
+        <attr name="innerColor" format="color" />
+        <attr name="outerColor" format="color" />
+        <attr name="strokeWidth" format="dimension" />
+        <attr name="stepTextColor" format="color" />
+        <attr name="stepTextSize" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="ColorTrackTextView">
+        <attr name="originalColor" format="color" />
+        <attr name="trackColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="AlphabetIndexView">
+        <attr name="selectedColor" format="color" />
+        <attr name="normalColor" format="color" />
+        <attr name="alphabetSize" format="dimension" />
+    </declare-styleable>
+</resources>

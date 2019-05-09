@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <HorizontalScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+        <LinearLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <com.dueeeke.customviewcollect.trackcolor.ColorTrackTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="天气"
+                android:textSize="20dp"
+                android:padding="10dp"
+                app:trackColor="@color/colorAccent"/>
+            <com.dueeeke.customviewcollect.trackcolor.ColorTrackTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="深圳"
+                android:textSize="20dp"
+                android:padding="10dp"
+                app:trackColor="@color/colorAccent"/>
+            <com.dueeeke.customviewcollect.trackcolor.ColorTrackTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="天气"
+                android:textSize="20dp"
+                android:padding="10dp"
+                app:trackColor="@color/colorAccent"/>
+            <com.dueeeke.customviewcollect.trackcolor.ColorTrackTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="深圳"
+                android:textSize="20dp"
+                android:padding="10dp"
+                app:trackColor="@color/colorAccent"/>
+            <com.dueeeke.customviewcollect.trackcolor.ColorTrackTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="天气"
+                android:textSize="20dp"
+                android:padding="10dp"
+                app:trackColor="@color/colorAccent"/>
+            <com.dueeeke.customviewcollect.trackcolor.ColorTrackTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="深圳"
+                android:textSize="20dp"
+                android:padding="10dp"
+                app:trackColor="@color/colorAccent"/>
+
+            <com.dueeeke.customviewcollect.trackcolor.ColorTrackTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="天气"
+                android:textSize="20dp"
+                android:padding="10dp"
+                app:trackColor="@color/colorAccent"/>
+            <com.dueeeke.customviewcollect.trackcolor.ColorTrackTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="深圳"
+                android:textSize="20dp"
+                android:padding="10dp"
+                app:trackColor="@color/colorAccent"/>
+            <com.dueeeke.customviewcollect.trackcolor.ColorTrackTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="天气"
+                android:textSize="20dp"
+                android:padding="10dp"
+                app:trackColor="@color/colorAccent"/>
+            <com.dueeeke.customviewcollect.trackcolor.ColorTrackTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="深圳"
+                android:textSize="20dp"
+                android:padding="10dp"
+                app:trackColor="@color/colorAccent"/>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>
