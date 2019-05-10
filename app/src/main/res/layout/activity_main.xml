@@ -29,4 +29,19 @@
         android:onClick="onButtonClick"
         android:text="字母索引"/>
 
+
+    <Button
+        android:id="@+id/behavior"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onButtonClick"
+        android:text="自定义behavior"/>
+
+    <Button
+        android:id="@+id/loading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onButtonClick"
+        android:text="加载"/>
+
 </LinearLayout>

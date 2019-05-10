@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.dueeeke.customviewcollect.alphabetindex.TestAlphabetActivity;
+import com.dueeeke.customviewcollect.behavior.TestBehaviorActivity;
+import com.dueeeke.customviewcollect.loading.TestLoadingActivity;
 import com.dueeeke.customviewcollect.qqstep.TestStepActivity;
 import com.dueeeke.customviewcollect.trackcolor.TestTrackColorActivity;
 
@@ -28,6 +30,12 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.alphabet:
                 startActivity(new Intent(this, TestAlphabetActivity.class));
+                break;
+            case R.id.behavior:
+                startActivity(new Intent(this, TestBehaviorActivity.class));
+                break;
+            case R.id.loading:
+                startActivity(new Intent(this, TestLoadingActivity.class));
                 break;
         }
     }
