@@ -11,7 +11,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".loading.TestLoadingActivity"></activity>
+        <activity android:name=".dragmsg.TestBubbleActivity"></activity>
+        <activity android:name=".loading.TestLoadingActivity" />
         <activity
             android:name=".behavior.TestBehaviorActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />

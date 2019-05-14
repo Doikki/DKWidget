@@ -44,4 +44,11 @@
         android:onClick="onButtonClick"
         android:text="加载"/>
 
+    <Button
+        android:id="@+id/msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onButtonClick"
+        android:text="QQ消息拖拽"/>
+
 </LinearLayout>
