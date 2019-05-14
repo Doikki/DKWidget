@@ -51,4 +51,11 @@
         android:onClick="onButtonClick"
         android:text="QQ消息拖拽"/>
 
+    <Button
+        android:id="@+id/like"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onButtonClick"
+        android:text="点赞效果"/>
+
 </LinearLayout>

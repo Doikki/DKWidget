@@ -117,6 +117,7 @@ public class MessageBubbleView extends View {
             mPath.quadTo(controlX, controlY, endX, endY);
             mPath.close();
 
+            //绘制连接两个圆的贝塞尔曲线
             canvas.drawPath(mPath, mPaint);
         }
 
