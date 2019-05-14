@@ -9,7 +9,9 @@
     <com.dueeeke.customviewcollect.like.LikeView
         android:id="@+id/like"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent"
+        app:imageSrc="@drawable/ic_love"
+        app:imageSize="40dp"/>
 
     <Button
         android:id="@+id/add"

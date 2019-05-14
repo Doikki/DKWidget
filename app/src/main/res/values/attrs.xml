@@ -18,4 +18,9 @@
         <attr name="normalColor" format="color" />
         <attr name="alphabetSize" format="dimension" />
     </declare-styleable>
+
+    <declare-styleable name="LikeView">
+        <attr name="imageSize" format="dimension"/>
+        <attr name="imageSrc" format="reference"/>
+    </declare-styleable>
 </resources>
