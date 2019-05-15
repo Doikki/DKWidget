@@ -28,6 +28,7 @@
         </activity>
         <activity android:name=".qqstep.TestStepActivity" />
         <activity android:name=".trackcolor.TestTrackColorActivity" />
+        <activity android:name=".progress.TestProgressActivity" />
     </application>
 
 </manifest>

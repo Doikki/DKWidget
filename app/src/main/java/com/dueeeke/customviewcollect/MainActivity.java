@@ -11,6 +11,7 @@ import com.dueeeke.customviewcollect.dragmsg.TestBubbleActivity;
 import com.dueeeke.customviewcollect.guide.TestGuideAcitivity;
 import com.dueeeke.customviewcollect.like.TestLikeActivity;
 import com.dueeeke.customviewcollect.loading.TestLoadingActivity;
+import com.dueeeke.customviewcollect.progress.TestProgressActivity;
 import com.dueeeke.customviewcollect.qqstep.TestStepActivity;
 import com.dueeeke.customviewcollect.trackcolor.TestTrackColorActivity;
 
@@ -48,6 +49,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.guide:
                 startActivity(new Intent(this, TestGuideAcitivity.class));
+                break;
+            case R.id.progress:
+                startActivity(new Intent(this, TestProgressActivity.class));
                 break;
         }
     }

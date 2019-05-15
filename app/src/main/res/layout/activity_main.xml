@@ -65,4 +65,11 @@
         android:onClick="onButtonClick"
         android:text="视差"/>
 
+    <Button
+        android:id="@+id/progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onButtonClick"
+        android:text="圆形进度条"/>
+
 </LinearLayout>

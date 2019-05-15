@@ -23,4 +23,18 @@
         <attr name="imageSize" format="dimension"/>
         <attr name="imageSrc" format="reference"/>
     </declare-styleable>
+
+    <declare-styleable name="CircleProgressBar">
+
+        <attr name="ring_max_progress" format="integer"/>
+        <attr name="ring_color" format="color"/>
+        <attr name="ring_progress_color" format="color"/>
+        <attr name="ring_stroke_width" format="dimension"/>
+        <attr name="ring_text_size" format="dimension"/>
+        <attr name="ring_text_color" format="color"/>
+        <attr name="ring_style">
+            <enum name="fill" value="0"/>
+            <enum name="stroke" value="1"/>
+        </attr>
+    </declare-styleable>
 </resources>
