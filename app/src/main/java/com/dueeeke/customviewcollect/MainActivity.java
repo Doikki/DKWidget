@@ -8,6 +8,7 @@ import android.view.View;
 import com.dueeeke.customviewcollect.alphabetindex.TestAlphabetActivity;
 import com.dueeeke.customviewcollect.behavior.TestBehaviorActivity;
 import com.dueeeke.customviewcollect.dragmsg.TestBubbleActivity;
+import com.dueeeke.customviewcollect.guide.TestGuideAcitivity;
 import com.dueeeke.customviewcollect.like.TestLikeActivity;
 import com.dueeeke.customviewcollect.loading.TestLoadingActivity;
 import com.dueeeke.customviewcollect.qqstep.TestStepActivity;
@@ -44,6 +45,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.like:
                 startActivity(new Intent(this, TestLikeActivity.class));
+                break;
+            case R.id.guide:
+                startActivity(new Intent(this, TestGuideAcitivity.class));
                 break;
         }
     }

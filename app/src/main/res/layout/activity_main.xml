@@ -58,4 +58,11 @@
         android:onClick="onButtonClick"
         android:text="点赞效果"/>
 
+    <Button
+        android:id="@+id/guide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onButtonClick"
+        android:text="视差"/>
+
 </LinearLayout>
