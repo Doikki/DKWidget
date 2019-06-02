@@ -1,6 +1,9 @@
 package com.dueeeke.customviewcollect.circlemenu;
 
 import android.content.Context;
+import android.graphics.Canvas;
+import android.graphics.Color;
+import android.graphics.Paint;
 import android.util.AttributeSet;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,6 +15,8 @@ public class CircleMenuLayout extends ViewGroup {
     private ListAdapter mAdapter;
     private OnItemClickListener mOnItemClickListener;
 
+    private Paint mPaint;
+
     public CircleMenuLayout(Context context) {
         this(context, null);
     }
@@ -22,6 +27,9 @@ public class CircleMenuLayout extends ViewGroup {
 
     public CircleMenuLayout(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
+        setWillNotDraw(false);//ViewGroup默认不回调onDraw,调用此方法让其回调onDraw
+        mPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
+        mPaint.setColor(Color.CYAN);
     }
 
 
@@ -100,6 +108,13 @@ public class CircleMenuLayout extends ViewGroup {
             top = (int) (radius + Math.sin(i * perAngle) * dis - itemWidth / 2);
             child.layout(left, top, left + itemWidth, top + itemWidth);
         }
+    }
+
+    @Override
+    protected void onDraw(Canvas canvas) {
+        super.onDraw(canvas);
+        int r = getMeasuredWidth() / 2;
+        canvas.drawCircle(r, r, r, mPaint);
     }
 
     @Override

@@ -10,8 +10,7 @@
         android:id="@+id/menu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:padding="30dp"
-        android:background="@drawable/shape_loading_shadow"/>
+        android:padding="30dp" />
 
 
 </FrameLayout>
