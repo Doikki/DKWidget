@@ -7,6 +7,7 @@ import android.view.View;
 
 import com.dueeeke.customviewcollect.alphabetindex.TestAlphabetActivity;
 import com.dueeeke.customviewcollect.behavior.TestBehaviorActivity;
+import com.dueeeke.customviewcollect.circlemenu.TestMenuActivity;
 import com.dueeeke.customviewcollect.dragmsg.TestBubbleActivity;
 import com.dueeeke.customviewcollect.guide.TestGuideAcitivity;
 import com.dueeeke.customviewcollect.like.TestLikeActivity;
@@ -52,6 +53,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.progress:
                 startActivity(new Intent(this, TestProgressActivity.class));
+                break;
+            case R.id.circle_menu:
+                startActivity(new Intent(this, TestMenuActivity.class));
                 break;
         }
     }

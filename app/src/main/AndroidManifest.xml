@@ -11,7 +11,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".guide.TestGuideAcitivity"></activity>
+        <activity android:name=".circlemenu.TestMenuActivity"></activity>
+        <activity android:name=".guide.TestGuideAcitivity" />
         <activity android:name=".like.TestLikeActivity" />
         <activity android:name=".dragmsg.TestBubbleActivity" />
         <activity android:name=".loading.TestLoadingActivity" />
