@@ -1,12 +1,15 @@
 package com.dueeeke.customviewcollect.behavior;
 
 import android.os.Bundle;
+import android.support.design.widget.AppBarLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 
 import com.dueeeke.customviewcollect.R;
 
@@ -15,6 +18,7 @@ public class TestBehaviorActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_test_behavior);
 
         RecyclerView recyclerView = findViewById(R.id.rv);
@@ -40,7 +44,20 @@ public class TestBehaviorActivity extends AppCompatActivity {
                 return 100;
             }
         });
+
+
+        AppBarLayout appBarLayout = findViewById(R.id.app_bar);
+        final ImageView imageView = findViewById(R.id.imageview);
+        appBarLayout.addOnOffsetChangedListener(new AppBarLayout.OnOffsetChangedListener() {
+            @Override
+            public void onOffsetChanged(AppBarLayout appBarLayout, int verticalOffset) {
+                Log.d(TAG, "onOffsetChanged: " + verticalOffset);
+                imageView.getLayoutParams().height = verticalOffset + 612;
+            }
+        });
     }
+
+    private static final String TAG = "TestBehaviorActivity";
 
 
     private class MyViewHolder extends RecyclerView.ViewHolder {

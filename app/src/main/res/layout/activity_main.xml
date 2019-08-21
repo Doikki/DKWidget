@@ -1,81 +1,99 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     tools:context=".MainActivity">
 
-
-    <Button
-        android:id="@+id/qq_step"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="onButtonClick"
-        android:text="qq计步"/>
+        android:orientation="vertical">
 
-    <Button
-        android:id="@+id/track_color"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="onButtonClick"
-        android:text="字体变色"/>
+        <Button
+            android:id="@+id/qq_step"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onButtonClick"
+            android:text="qq计步" />
 
-    <Button
-        android:id="@+id/alphabet"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="onButtonClick"
-        android:text="字母索引"/>
+        <Button
+            android:id="@+id/track_color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onButtonClick"
+            android:text="字体变色" />
 
+        <Button
+            android:id="@+id/alphabet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onButtonClick"
+            android:text="字母索引" />
 
-    <Button
-        android:id="@+id/behavior"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="onButtonClick"
-        android:text="自定义behavior"/>
+        <Button
+            android:id="@+id/behavior"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onButtonClick"
+            android:text="自定义behavior" />
 
-    <Button
-        android:id="@+id/loading"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="onButtonClick"
-        android:text="加载"/>
+        <Button
+            android:id="@+id/loading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onButtonClick"
+            android:text="加载" />
 
-    <Button
-        android:id="@+id/msg"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="onButtonClick"
-        android:text="QQ消息拖拽"/>
+        <Button
+            android:id="@+id/msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onButtonClick"
+            android:text="QQ消息拖拽" />
 
-    <Button
-        android:id="@+id/like"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="onButtonClick"
-        android:text="点赞效果"/>
+        <Button
+            android:id="@+id/like"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onButtonClick"
+            android:text="点赞效果" />
 
-    <Button
-        android:id="@+id/guide"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="onButtonClick"
-        android:text="视差"/>
+        <Button
+            android:id="@+id/guide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onButtonClick"
+            android:text="视差" />
 
-    <Button
-        android:id="@+id/progress"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="onButtonClick"
-        android:text="圆形进度条"/>
-    <Button
-        android:id="@+id/circle_menu"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="onButtonClick"
-        android:text="圆形菜单"/>
+        <Button
+            android:id="@+id/progress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onButtonClick"
+            android:text="圆形进度条" />
 
-</LinearLayout>
+        <Button
+            android:id="@+id/circle_menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onButtonClick"
+            android:text="圆形菜单" />
+
+        <Button
+            android:id="@+id/wave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onButtonClick"
+            android:text="波浪" />
+
+        <Button
+            android:id="@+id/ruler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onButtonClick"
+            android:text="ruler"/>
+
+    </LinearLayout>
+
+</ScrollView>

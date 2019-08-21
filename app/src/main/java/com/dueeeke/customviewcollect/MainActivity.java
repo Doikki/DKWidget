@@ -14,7 +14,9 @@ import com.dueeeke.customviewcollect.like.TestLikeActivity;
 import com.dueeeke.customviewcollect.loading.TestLoadingActivity;
 import com.dueeeke.customviewcollect.progress.TestProgressActivity;
 import com.dueeeke.customviewcollect.qqstep.TestStepActivity;
+import com.dueeeke.customviewcollect.ruler.TestRulerActivity;
 import com.dueeeke.customviewcollect.trackcolor.TestTrackColorActivity;
+import com.dueeeke.customviewcollect.wave.TestWaveActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -56,6 +58,12 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.circle_menu:
                 startActivity(new Intent(this, TestMenuActivity.class));
+                break;
+            case R.id.wave:
+                startActivity(new Intent(this, TestWaveActivity.class));
+                break;
+            case R.id.ruler:
+                startActivity(new Intent(this, TestRulerActivity.class));
                 break;
         }
     }
