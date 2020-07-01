@@ -15,42 +15,42 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
-            <com.dueeeke.customviewcollect.trackcolor.ColorTrackTextView
+            <xyz.doikki.customviewcollect.trackcolor.ColorTrackTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="天气"
                 android:textSize="20dp"
                 android:padding="10dp"
                 app:trackColor="@color/colorAccent"/>
-            <com.dueeeke.customviewcollect.trackcolor.ColorTrackTextView
+            <xyz.doikki.customviewcollect.trackcolor.ColorTrackTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="深圳天气"
                 android:textSize="20dp"
                 android:padding="10dp"
                 app:trackColor="@color/colorAccent"/>
-            <com.dueeeke.customviewcollect.trackcolor.ColorTrackTextView
+            <xyz.doikki.customviewcollect.trackcolor.ColorTrackTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="天气"
                 android:textSize="20dp"
                 android:padding="10dp"
                 app:trackColor="@color/colorAccent"/>
-            <com.dueeeke.customviewcollect.trackcolor.ColorTrackTextView
+            <xyz.doikki.customviewcollect.trackcolor.ColorTrackTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="深圳天气"
                 android:textSize="20dp"
                 android:padding="10dp"
                 app:trackColor="@color/colorAccent"/>
-            <com.dueeeke.customviewcollect.trackcolor.ColorTrackTextView
+            <xyz.doikki.customviewcollect.trackcolor.ColorTrackTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="天气"
                 android:textSize="20dp"
                 android:padding="10dp"
                 app:trackColor="@color/colorAccent"/>
-            <com.dueeeke.customviewcollect.trackcolor.ColorTrackTextView
+            <xyz.doikki.customviewcollect.trackcolor.ColorTrackTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="深圳"
@@ -58,28 +58,28 @@
                 android:padding="10dp"
                 app:trackColor="@color/colorAccent"/>
 
-            <com.dueeeke.customviewcollect.trackcolor.ColorTrackTextView
+            <xyz.doikki.customviewcollect.trackcolor.ColorTrackTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="天气天气"
                 android:textSize="20dp"
                 android:padding="10dp"
                 app:trackColor="@color/colorAccent"/>
-            <com.dueeeke.customviewcollect.trackcolor.ColorTrackTextView
+            <xyz.doikki.customviewcollect.trackcolor.ColorTrackTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="深圳"
                 android:textSize="20dp"
                 android:padding="10dp"
                 app:trackColor="@color/colorAccent"/>
-            <com.dueeeke.customviewcollect.trackcolor.ColorTrackTextView
+            <xyz.doikki.customviewcollect.trackcolor.ColorTrackTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="天气天气"
                 android:textSize="20dp"
                 android:padding="10dp"
                 app:trackColor="@color/colorAccent"/>
-            <com.dueeeke.customviewcollect.trackcolor.ColorTrackTextView
+            <xyz.doikki.customviewcollect.trackcolor.ColorTrackTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="深圳"

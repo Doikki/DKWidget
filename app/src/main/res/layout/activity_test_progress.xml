@@ -5,9 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.dueeeke.customviewcollect.progress.TestProgressActivity">
+    tools:context="xyz.doikki.customviewcollect.progress.TestProgressActivity">
 
-    <com.dueeeke.customviewcollect.progress.CircleProgressBar
+    <xyz.doikki.customviewcollect.progress.CircleProgressBar
         android:id="@+id/rpb_f"
         android:layout_width="80dp"
         android:layout_height="80dp"
@@ -20,7 +20,7 @@
         app:ring_text_size="16sp"
         app:ring_style="fill"/>
 
-    <com.dueeeke.customviewcollect.progress.CircleProgressBar
+    <xyz.doikki.customviewcollect.progress.CircleProgressBar
         android:id="@+id/rpb_s"
         android:layout_width="80dp"
         android:layout_height="80dp"

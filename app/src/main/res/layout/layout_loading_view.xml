@@ -5,7 +5,7 @@
     android:orientation="vertical"
     android:gravity="center">
 
-    <com.dueeeke.customviewcollect.loading.ShapeView
+    <xyz.doikki.customviewcollect.loading.ShapeView
         android:id="@+id/shape"
         android:layout_width="30dp"
         android:layout_height="30dp"

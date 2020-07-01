@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.dueeeke.customviewcollect">
+    package="xyz.doikki.customviewcollect">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -13,27 +13,28 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".wave.TestWaveActivity" />
-        <activity android:name=".guide.TestGuideAcitivity" />
-        <activity android:name=".circlemenu.TestMenuActivity" />
-        <activity android:name=".like.TestLikeActivity" />
-        <activity android:name=".dragmsg.TestBubbleActivity" />
-        <activity android:name=".loading.TestLoadingActivity" />
+        <activity android:name="xyz.doikki.customviewcollect.wave.TestWaveActivity" />
+        <activity android:name="xyz.doikki.customviewcollect.guide.TestGuideAcitivity" />
+        <activity android:name="xyz.doikki.customviewcollect.circlemenu.TestMenuActivity" />
+        <activity android:name="xyz.doikki.customviewcollect.like.TestLikeActivity" />
+        <activity android:name="xyz.doikki.customviewcollect.dragmsg.TestBubbleActivity" />
+        <activity android:name="xyz.doikki.customviewcollect.loading.TestLoadingActivity" />
         <activity
-            android:name=".behavior.TestBehaviorActivity"
+            android:name="xyz.doikki.customviewcollect.behavior.TestBehaviorActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity android:name=".alphabetindex.TestAlphabetActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name="xyz.doikki.customviewcollect.alphabetindex.TestAlphabetActivity" />
+        <activity android:name="xyz.doikki.customviewcollect.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".qqstep.TestStepActivity" />
-        <activity android:name=".trackcolor.TestTrackColorActivity" />
-        <activity android:name=".progress.TestProgressActivity" />
-        <activity android:name=".ruler.TestRulerActivity" />
+        <activity android:name="xyz.doikki.customviewcollect.qqstep.TestStepActivity" />
+        <activity android:name="xyz.doikki.customviewcollect.trackcolor.TestTrackColorActivity" />
+        <activity android:name="xyz.doikki.customviewcollect.progress.TestProgressActivity" />
+        <activity android:name="xyz.doikki.customviewcollect.ruler.TestRulerActivity" />
+        <activity android:name="xyz.doikki.customviewcollect.dashboard.TestDashBoardActivity"/>
     </application>
 
 </manifest>

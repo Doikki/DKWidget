@@ -5,10 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".loading.TestLoadingActivity"
+    tools:context="xyz.doikki.customviewcollect.loading.TestLoadingActivity"
     android:gravity="center">
 
-<com.dueeeke.customviewcollect.loading.LoadingView
+<xyz.doikki.customviewcollect.loading.LoadingView
     android:layout_width="match_parent"
     android:layout_height="match_parent"/>
 

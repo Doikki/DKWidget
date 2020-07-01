@@ -13,7 +13,7 @@
         tools:text="65.7kg"
         android:textColor="@android:color/holo_green_light"/>
 
-    <com.dueeeke.customviewcollect.ruler.RulerView
+    <xyz.doikki.customviewcollect.ruler.RulerView
         android:id="@+id/ruler"
         android:layout_width="match_parent"
         android:layout_height="60dp"

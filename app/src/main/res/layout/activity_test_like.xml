@@ -4,9 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".like.TestLikeActivity">
+    tools:context="xyz.doikki.customviewcollect.like.TestLikeActivity">
 
-    <com.dueeeke.customviewcollect.like.LikeView
+    <xyz.doikki.customviewcollect.like.LikeView
         android:id="@+id/like"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".behavior.TestBehaviorActivity">
+    tools:context="xyz.doikki.customviewcollect.behavior.TestBehaviorActivity">
 
     <android.support.design.widget.AppBarLayout
         android:id="@+id/app_bar"
@@ -58,14 +58,14 @@
         android:layout_marginBottom="70dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
-        app:layout_behavior=".behavior.MyBehavior"
+        app:layout_behavior="xyz.doikki.customviewcollect.behavior.MyBehavior"
         app:layout_scrollFlags="scroll|enterAlways|snap" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_gravity="bottom"
-        app:layout_behavior=".behavior.MyBehavior"
+        app:layout_behavior="xyz.doikki.customviewcollect.behavior.MyBehavior"
         android:background="@color/colorPrimaryDark"/>
 
 </android.support.design.widget.CoordinatorLayout>
