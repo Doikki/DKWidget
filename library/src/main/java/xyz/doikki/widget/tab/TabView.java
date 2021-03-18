@@ -1,4 +1,4 @@
-package xyz.doikki.widget.trackcolor;
+package xyz.doikki.widget.tab;
 
 
 import android.content.Context;
@@ -6,13 +6,13 @@ import android.content.res.TypedArray;
 import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.graphics.Rect;
-import android.support.v7.widget.AppCompatTextView;
+import androidx.appcompat.widget.AppCompatTextView;
 import android.util.AttributeSet;
 
 import xyz.doikki.widget.R;
 
 
-public class ColorTrackTextView extends AppCompatTextView {
+public class TabView extends AppCompatTextView {
 
     private int mOriginalColor;
     private int mTrackColor;
@@ -24,15 +24,15 @@ public class ColorTrackTextView extends AppCompatTextView {
     private float mOffset = 0f;
     private boolean mIsForward = true;
 
-    public ColorTrackTextView(Context context) {
+    public TabView(Context context) {
         this(context, null);
     }
 
-    public ColorTrackTextView(Context context, AttributeSet attrs) {
+    public TabView(Context context, AttributeSet attrs) {
         this(context, attrs, 0);
     }
 
-    public ColorTrackTextView(Context context, AttributeSet attrs, int defStyleAttr) {
+    public TabView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.ColorTrackTextView);
         mOriginalColor = typedArray.getColor(R.styleable.ColorTrackTextView_originalColor, getTextColors().getDefaultColor());

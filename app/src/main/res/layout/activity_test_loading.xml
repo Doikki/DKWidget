@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="xyz.doikki.customviewcollect.xyz.doikki.widget.sample.TestLoadingActivity"
+    tools:context="xyz.doikki.widget.sample.TestLoadingActivity"
     android:gravity="center">
 
 <xyz.doikki.widget.loading.LoadingView

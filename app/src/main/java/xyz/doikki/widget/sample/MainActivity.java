@@ -2,7 +2,7 @@ package xyz.doikki.widget.sample;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 
 
@@ -26,9 +26,6 @@ public class MainActivity extends AppCompatActivity {
             case R.id.alphabet:
                 startActivity(new Intent(this, TestAlphabetActivity.class));
                 break;
-            case R.id.behavior:
-                startActivity(new Intent(this, TestBehaviorActivity.class));
-                break;
             case R.id.loading:
                 startActivity(new Intent(this, TestLoadingActivity.class));
                 break;
@@ -37,9 +34,6 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.like:
                 startActivity(new Intent(this, TestLikeActivity.class));
-                break;
-            case R.id.guide:
-                startActivity(new Intent(this, TestGuideAcitivity.class));
                 break;
             case R.id.progress:
                 startActivity(new Intent(this, TestProgressActivity.class));

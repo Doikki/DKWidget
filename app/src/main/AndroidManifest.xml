@@ -14,14 +14,10 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
         <activity android:name=".TestWaveActivity" />
-        <activity android:name=".TestGuideAcitivity" />
         <activity android:name=".TestMenuActivity" />
         <activity android:name=".TestLikeActivity" />
         <activity android:name=".TestBubbleActivity" />
         <activity android:name=".TestLoadingActivity" />
-        <activity
-            android:name=".TestBehaviorActivity"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity android:name=".TestAlphabetActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>

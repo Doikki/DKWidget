@@ -1,10 +1,10 @@
 package xyz.doikki.widget.sample;
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v4.view.PagerAdapter;
-import android.support.v4.view.ViewPager;
-import android.support.v7.app.AppCompatActivity;
+import androidx.annotation.Nullable;
+import androidx.viewpager.widget.PagerAdapter;
+import androidx.viewpager.widget.ViewPager;
+import androidx.appcompat.app.AppCompatActivity;
 import android.util.TypedValue;
 import android.view.Gravity;
 import android.view.View;
@@ -16,7 +16,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
-import xyz.doikki.widget.trackcolor.ColorTrackTextView;
+import xyz.doikki.widget.tab.TabView;
 
 public class TestTrackColorActivity extends AppCompatActivity {
 
@@ -33,7 +33,7 @@ public class TestTrackColorActivity extends AppCompatActivity {
 
         mScroll = findViewById(R.id.scroll);
         mContainer = findViewById(R.id.container);
-        ColorTrackTextView colorTrackTextView = (ColorTrackTextView) mContainer.getChildAt(0);
+        TabView colorTrackTextView = (TabView) mContainer.getChildAt(0);
         colorTrackTextView.startTrack(1f, true);
         ViewPager viewPager = findViewById(R.id.vp);
 
@@ -81,8 +81,8 @@ public class TestTrackColorActivity extends AppCompatActivity {
             @Override
             public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
                 if (positionOffset == 0) return;
-                ColorTrackTextView selected = (ColorTrackTextView) mContainer.getChildAt(position);
-                ColorTrackTextView next = (ColorTrackTextView) mContainer.getChildAt(position + 1);
+                TabView selected = (TabView) mContainer.getChildAt(position);
+                TabView next = (TabView) mContainer.getChildAt(position + 1);
                 selected.startTrack(positionOffset, false);
                 next.startTrack(positionOffset, true);
 

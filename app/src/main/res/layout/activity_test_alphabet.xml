@@ -3,10 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="xyz.doikki.customviewcollect.xyz.doikki.widget.sample.TestAlphabetActivity">
+    tools:context="xyz.doikki.widget.sample.TestAlphabetActivity">
 
 
-    <xyz.doikki.widget.alphabetindex.AlphabetIndexView
+    <xyz.doikki.widget.index.AlphabetIndexView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="end"/>

@@ -1,7 +1,7 @@
 package xyz.doikki.widget.sample;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.widget.SeekBar;
 
 import xyz.doikki.widget.qqstep.StepView;

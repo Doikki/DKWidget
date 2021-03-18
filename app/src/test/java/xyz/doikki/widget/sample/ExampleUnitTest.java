@@ -1,4 +1,4 @@
-package xyz.doikki.customviewcollect;
+package xyz.doikki.widget.sample;
 
 import org.junit.Test;
 

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="xyz.doikki.customviewcollect.xyz.doikki.widget.sample.TestLikeActivity">
+    tools:context="xyz.doikki.widget.sample.TestLikeActivity">
 
     <xyz.doikki.widget.like.LikeView
         android:id="@+id/like"

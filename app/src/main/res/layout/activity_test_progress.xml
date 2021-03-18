@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="xyz.doikki.customviewcollect.xyz.doikki.widget.sample.TestProgressActivity">
+    tools:context="xyz.doikki.widget.sample.TestProgressActivity">
 
     <xyz.doikki.widget.progress.CircleProgressBar
         android:id="@+id/rpb_f"

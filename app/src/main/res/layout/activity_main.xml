@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="xyz.doikki.customviewcollect.xyz.doikki.widget.sample.MainActivity">
+    tools:context="xyz.doikki.widget.sample.MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -32,13 +32,6 @@
             android:text="字母索引" />
 
         <Button
-            android:id="@+id/behavior"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:onClick="onButtonClick"
-            android:text="自定义behavior" />
-
-        <Button
             android:id="@+id/loading"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -58,13 +51,6 @@
             android:layout_height="wrap_content"
             android:onClick="onButtonClick"
             android:text="点赞效果" />
-
-        <Button
-            android:id="@+id/guide"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:onClick="onButtonClick"
-            android:text="视差" />
 
         <Button
             android:id="@+id/progress"
@@ -92,7 +78,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="onButtonClick"
-            android:text="ruler"/>
+            android:text="尺子"/>
 
         <Button
             android:id="@+id/dash_board"

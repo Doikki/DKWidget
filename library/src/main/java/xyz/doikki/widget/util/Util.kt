@@ -4,7 +4,7 @@ import android.content.res.Resources
 import android.util.TypedValue
 
 /**
- * Created by qiuyuan on 2020/7/1
+ * Created by doikki on 2020/7/1
  */
 
 fun dp2px(dp: Float): Float {
