@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="xyz.doikki.customviewcollect.guide.TestGuideAcitivity"
+    tools:context="xyz.doikki.customviewcollect.xyz.doikki.widget.sample.TestGuideAcitivity"
     android:background="@color/colorAccent">
 
-    <xyz.doikki.customviewcollect.guide.LoadingView
+    <xyz.doikki.widget.guide.LoadingView
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 

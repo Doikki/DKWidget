@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    tools:context="xyz.doikki.customviewcollect.qqstep.TestStepActivity"
+    tools:context="xyz.doikki.customviewcollect.xyz.doikki.widget.sample.TestStepActivity"
     android:orientation="vertical">
 
-    <xyz.doikki.customviewcollect.qqstep.StepView
+    <xyz.doikki.widget.qqstep.StepView
         android:id="@+id/step_view"
         android:layout_width="400dp"
         android:layout_height="300dp"

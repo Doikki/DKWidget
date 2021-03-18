@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="xyz.doikki.customviewcollect.wave.TestWaveActivity"
+    tools:context="xyz.doikki.customviewcollect.xyz.doikki.widget.sample.TestWaveActivity"
     android:background="@color/colorAccent">
 
-    <xyz.doikki.customviewcollect.wave.WaveView
+    <xyz.doikki.widget.wave.WaveView
         android:layout_marginTop="100dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
