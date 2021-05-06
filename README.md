@@ -2,5 +2,5 @@
 
 MavenCentral
 ```
-implementation 'xyz.doikki:android-widget:1.0.0'
+implementation 'xyz.doikki.android.widget:widget:1.0.0'
 ```

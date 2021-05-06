@@ -10,7 +10,7 @@ task androidSourcesJar(type: Jar) {
 }
 
 ext {
-    PUBLISH_GROUP_ID = 'xyz.doikki'
+    PUBLISH_GROUP_ID = 'xyz.doikki.android.widget'
     PUBLISH_VERSION = '1.0.0'
 }
 
