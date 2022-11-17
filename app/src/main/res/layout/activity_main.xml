@@ -87,6 +87,13 @@
             android:onClick="onButtonClick"
             android:text="仪表盘"/>
 
+        <Button
+            android:id="@+id/pie_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onButtonClick"
+            android:text="饼图"/>
+
     </LinearLayout>
 
 </ScrollView>

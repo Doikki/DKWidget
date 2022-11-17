@@ -32,15 +32,25 @@ class DashBoard : View {
 
     constructor(context: Context?) : super(context)
     constructor(context: Context?, attrs: AttributeSet?) : super(context, attrs)
-    constructor(context: Context?, attrs: AttributeSet?, defStyleAttr: Int) : super(context, attrs, defStyleAttr)
+    constructor(context: Context?, attrs: AttributeSet?, defStyleAttr: Int) : super(
+        context,
+        attrs,
+        defStyleAttr
+    )
 
     override fun onSizeChanged(w: Int, h: Int, oldw: Int, oldh: Int) {
         super.onSizeChanged(w, h, oldw, oldh)
-        bounds = RectF(width / 2 - radius, height / 2 - radius, width / 2 + radius, height / 2 + radius)
+        bounds =
+            RectF(width / 2 - radius, height / 2 - radius, width / 2 + radius, height / 2 + radius)
         val arc = Path()
         arc.addArc(bounds, startAngle, sweepAngle)
         val pathMeasure = PathMeasure(arc, false)
-        effect = PathDashPathEffect(mark, (pathMeasure.length - dp2px(2f)) / 20, 0f, PathDashPathEffect.Style.ROTATE)
+        effect = PathDashPathEffect(
+            mark,
+            (pathMeasure.length - dp2px(2f)) / 20,
+            0f,
+            PathDashPathEffect.Style.ROTATE
+        )
     }
 
     override fun onDraw(canvas: Canvas?) {
@@ -54,16 +64,15 @@ class DashBoard : View {
             it.drawArc(bounds, startAngle, sweepAngle, false, paint)
             //画指针
             it.drawLine(
-                    (width / 2).toFloat(),
-                    (height / 2).toFloat(),
-                    (cos(Math.toRadians(getAngleFromMark(5))) * pointerLength + width / 2).toFloat(),
-                    (sin(Math.toRadians(getAngleFromMark(5))) * pointerLength + height / 2).toFloat(),
-                    paint
+                width / 2f,
+                height / 2f,
+                (cos(getAngleFromMark(5)) * pointerLength + width / 2f).toFloat(),
+                (sin(getAngleFromMark(5)) * pointerLength + height / 2f).toFloat(),
+                paint
             )
         }
     }
 
-    private fun getAngleFromMark(mark: Int): Double {
-        return startAngle + sweepAngle.toDouble() / 20 * mark
-    }
+    private fun getAngleFromMark(mark: Int): Double =
+        Math.toRadians(startAngle + sweepAngle.toDouble() / 20 * mark)
 }

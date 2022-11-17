@@ -50,6 +50,9 @@ public class MainActivity extends AppCompatActivity {
             case R.id.dash_board:
                 startActivity(new Intent(this, TestDashBoardActivity.class));
                 break;
+            case R.id.pie_view:
+                startActivity(new Intent(this, TestPieActivity.class));
+                break;
         }
     }
 }
