@@ -14,6 +14,7 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning" >
         <activity android:name=".TestPieActivity"/>
+        <activity android:name=".TestCircleImageActivity"/>
         <activity android:name=".TestWaveActivity" />
         <activity android:name=".TestMenuActivity" />
         <activity android:name=".TestLikeActivity" />

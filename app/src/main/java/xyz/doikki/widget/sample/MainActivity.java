@@ -53,6 +53,9 @@ public class MainActivity extends AppCompatActivity {
             case R.id.pie_view:
                 startActivity(new Intent(this, TestPieActivity.class));
                 break;
+            case R.id.circle_image:
+                startActivity(new Intent(this, TestCircleImageActivity.class));
+                break;
         }
     }
 }

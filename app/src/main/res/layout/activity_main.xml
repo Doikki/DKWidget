@@ -94,6 +94,13 @@
             android:onClick="onButtonClick"
             android:text="饼图"/>
 
+        <Button
+            android:id="@+id/circle_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onButtonClick"
+            android:text="圆形图片"/>
+
     </LinearLayout>
 
 </ScrollView>
