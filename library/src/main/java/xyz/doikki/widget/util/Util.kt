@@ -7,6 +7,12 @@ import android.util.TypedValue
  * Created by doikki on 2020/7/1
  */
 
-fun dp2px(dp: Float): Float {
-    return TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, dp, Resources.getSystem().displayMetrics)
-}
+val Float.dp
+    get() = TypedValue.applyDimension(
+        TypedValue.COMPLEX_UNIT_DIP,
+        this,
+        Resources.getSystem().displayMetrics
+    )
+
+val Int.dp
+    get() = this.toFloat().dp

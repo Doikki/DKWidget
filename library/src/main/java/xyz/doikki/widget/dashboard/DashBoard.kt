@@ -4,7 +4,7 @@ import android.content.Context
 import android.graphics.*
 import android.util.AttributeSet
 import android.view.View
-import xyz.doikki.widget.util.dp2px
+import xyz.doikki.widget.util.dp
 import kotlin.math.cos
 import kotlin.math.sin
 
@@ -17,16 +17,16 @@ class DashBoard : View {
     private val angle = 120f
     private val startAngle = 90 + angle / 2
     private val sweepAngle = 360 - angle
-    private val radius = dp2px(150f)
-    private val pointerLength = dp2px(120f)
+    private val radius = 150f.dp
+    private val pointerLength = 120f.dp
     private val paint: Paint = Paint(Paint.ANTI_ALIAS_FLAG).apply {
         style = Paint.Style.STROKE
-        strokeWidth = dp2px(2f)
+        strokeWidth = 2f.dp
     }
     private lateinit var bounds: RectF
 
     private val mark = Path().apply {
-        addRect(RectF(0f, 0f, dp2px(2f), dp2px(10f)), Path.Direction.CW)
+        addRect(RectF(0f, 0f, 2f.dp, 10f.dp), Path.Direction.CW)
     }
     private lateinit var effect: PathDashPathEffect
 
@@ -47,7 +47,7 @@ class DashBoard : View {
         val pathMeasure = PathMeasure(arc, false)
         effect = PathDashPathEffect(
             mark,
-            (pathMeasure.length - dp2px(2f)) / 20,
+            (pathMeasure.length - 2f.dp) / 20,
             0f,
             PathDashPathEffect.Style.ROTATE
         )

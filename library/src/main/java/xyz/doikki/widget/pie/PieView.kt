@@ -7,7 +7,7 @@ import android.graphics.Paint
 import android.graphics.RectF
 import android.util.AttributeSet
 import android.view.View
-import xyz.doikki.widget.util.dp2px
+import xyz.doikki.widget.util.dp
 import kotlin.math.cos
 import kotlin.math.sin
 
@@ -17,8 +17,8 @@ class PieView(context: Context?, attrs: AttributeSet?) : View(context, attrs) {
     private val angles = floatArrayOf(60f, 120f, 150f, 30f)
     private val colors = intArrayOf(Color.RED, Color.GREEN, Color.BLUE, Color.YELLOW)
 
-    private val radius = dp2px(150f)
-    private val offset = dp2px(20f)
+    private val radius = 150f.dp
+    private val offset = 20f.dp
     private val offsetIndex = 1
     private val paint = Paint(Paint.ANTI_ALIAS_FLAG).apply {
         style = Paint.Style.FILL
